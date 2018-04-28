@@ -1,6 +1,8 @@
 # SchemaGen
 
-Running Schema Generator
+**Running Schema Generator**
 
-Goto project folder and execute node server.js.
-Goto http://localhost:8080 in your browser
+1. Goto project folder and execute `node server.js`.  
+2. Goto` http://localhost:8080` in your browser
+
+

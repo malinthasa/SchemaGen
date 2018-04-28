@@ -1,0 +1,58 @@
+#topDiv {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 15px;
+    alignment: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainDiv {
+    display: table-row;
+}
+
+#inputDiv {
+    display: table-cell;
+    text-align: center;
+    border-style: solid;
+    border-color: #000088;
+    border-radius: 25px;
+    width: 48%;
+    padding-top: 20px;
+}
+
+#outputDiv {
+    display: table-cell;
+    text-align: center;
+    border-style: solid;
+    border-color: #000088;
+    border-radius: 25px
+}
+
+div {
+    padding-bottom: 10px
+}
+
+label {
+    float: left;
+    width: 6em;
+    text-align: right;
+    padding-right: 4px
+}
+
+input {
+    text-align: left;
+}
+
+textarea {
+    alignment: right;
+    border: none;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}

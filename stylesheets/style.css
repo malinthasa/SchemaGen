@@ -2,9 +2,8 @@
     display: table;
     border-collapse: separate;
     border-spacing: 15px;
-    alignment: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-top: 60px;
 }
 
 #mainDiv {

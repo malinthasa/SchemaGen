@@ -15,18 +15,17 @@
     text-align: center;
     border-style: solid;
     border-color: #000088;
-    border-radius: 25px;
-    width: 48%;
+
     padding-top: 20px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 #outputDiv {
     display: table-cell;
     text-align: center;
     border-style: solid;
+
     border-color: #000088;
-    border-radius: 25px
 }
 
 div {
@@ -53,9 +52,9 @@ textarea {
     border: none;
     margin-left: 20px;
     margin-top: 10px;
-    margin-right: 20px;
-    padding-left: 40px;
-    font-size: 18px;
+    margin-right: 10px;
+    padding-left: 20px;
+    font-size: 15px;
 }
 
 h3 {

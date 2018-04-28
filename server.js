@@ -10,9 +10,10 @@ http.createServer(function (request, response) {
     let filePath = '.' + request.url;
     if (filePath === './')
         filePath = './index.html';
-
+    //check extension of the file to be accessed
     let extensionType = path.extname(filePath);
     let contentType = 'text/html';
+    //select content type based on the extension
     switch (extensionType) {
         case '.js':
             contentType = 'text/javascript';
@@ -30,9 +31,10 @@ http.createServer(function (request, response) {
             }
         }
         else {
+            //open file
             response.writeHead(200, {'Content-Type': contentType});
             response.end(data, 'utf-8');
         }
     });
-
-}).listen(8079);
+// You can change the server running port here
+}).listen(8080);

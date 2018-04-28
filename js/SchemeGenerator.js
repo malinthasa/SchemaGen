@@ -17,7 +17,7 @@ function generateSchema(student) {
         for (prop in student) {
             let studentProp = String(student[prop]);
             if (studentProp !== "" && studentProp !== 'null')
-                schema = schema + '"' + String(prop) + ': ' + studentProp + '",' + '\n';
+                schema = schema + '"' + String(prop) + '": "' + studentProp + '",' + '\n';
         }
         //removing additional comma at the end of the schema and adding end }
         schema = schema.substring(0, schema.length - 2) + '\n}';

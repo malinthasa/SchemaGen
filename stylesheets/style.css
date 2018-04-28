@@ -18,6 +18,7 @@
     border-radius: 25px;
     width: 48%;
     padding-top: 20px;
+    padding-right: 30px;
 }
 
 #outputDiv {
@@ -43,11 +44,18 @@ input {
     text-align: left;
 }
 
+#topInput {
+    margin-top: 45px;
+}
+
 textarea {
     alignment: right;
     border: none;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 40px;
+    font-size: 18px;
 }
 
 h3 {
